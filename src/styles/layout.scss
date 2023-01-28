@@ -1,0 +1,50 @@
+html, body {
+  font-size: 100%;
+  font-family: 'Playfair Display', serif;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  header { flex-shrink: 0; }
+  main { flex: 1 0 auto; }
+  footer { flex-shrink: 0; }
+}
+
+section {
+  padding-bottom: 0;
+}
+
+header {
+  padding-bottom: 3em;
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  h5 {
+    font-style: italic;
+  }
+}
+
+main {
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+}
+
+footer {
+  section {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+}
+

@@ -1,0 +1,18 @@
+@use "sass:color";
+
+// https://necolas.github.io/normalize.css/
+@import 'normalize.css/normalize.css';
+
+$color-white: #f0f0f0;
+$color-black: #333333;
+
+$primary-color: #2d85ed;
+$second-color: #333333;
+$third-color: #ABC7BD;
+
+$font-color: $second-color;
+$font-reverse-color: $third-color;
+$background-color: #F0F0F0;
+
+@import 'styles/mustard-ui';
+@import 'styles/layout';
